@@ -12,7 +12,7 @@ Desarrolle un algoritmo que permita leer dos valores distintos, determinar cual 
 
 <img src="images/diagrama-flujo.png"/>
 
-### Diagrama Pseudocódigo
+### Pseudocódigo
 
 Pasos:
  - Inicio
@@ -30,5 +30,17 @@ Escribir A, “Es el mayor”
 el mayor”___
  - Fin_Si
  - Fin
+
+
+## Ejercicio 2 <a name="ejercicio2"></a>
+
+Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las variables A, B y C respectivamente. El algoritmo debe imprimir cual es el mayor y cual es el menor. Recuerde constatar que los tres valores introducidos por el teclado sean valores distintos. Presente un mensaje de alerta en caso de que se detecte la introducción de valores iguales.
+
+### Diagrama de flujo 2
+
+<img src="images/diagrama-flujo2.png"/>
+
+### Pseudocódigo 2
+
 
 </div>
