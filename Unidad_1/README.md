@@ -17,13 +17,10 @@ Desarrolle un algoritmo que permita leer dos valores distintos, determinar cual 
 Pasos:
  - Inicio
  - Inicializar variables: __A = 0, B = 0__
- - Solicitar la introducción de dos
-valores distintos
+ - Solicitar la introducción de dos valores distintos
  - Leer los dos valores
  - Asignarlos a las variables __A y B__
- - Si A = B Entonces vuelve a 3
-porque los valores deben ser
-distintos
+ - Si A = B Entonces vuelve a 3 porque los valores deben ser distintos
  - Si __A > B__ Entonces
 Escribir A, “Es el mayor”
  - De lo contrario: Escribir ___B, “Es
@@ -42,5 +39,20 @@ Desarrolle un algoritmo que permita leer tres valores y almacenarlos en las vari
 
 ### Pseudocódigo 2
 
+Pasos:
+ - Inicio
+ - Inicializar las variables A, B y C
+ - Leer los tres valores
+ - Almacenar en las variables A, B y C
+ - Si A > B y A > C Entonces
+ - Escribir A “Es el mayor”
+   Sino
+ - Si B > A y B > C Entonces
+ - Escribir B “Es el mayor”
+ - Sino
+ - Escribir C “Es el mayor”
+ - Fin_Si
+ - Fin_Si
+ - Fin
 
 </div>
