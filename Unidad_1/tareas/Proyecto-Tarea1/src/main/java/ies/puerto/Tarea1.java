@@ -1,10 +1,12 @@
 package ies.puerto;
 import java.util.Scanner;
+
 /**
  * Desarrolle un algoritmo que permita calcular
  * Promedio de Notas; finaliza cuando N = 0.
  */
-public class Ejercicio8 {
+public class Tarea1 {
+
     public static void main(String[] args){
         Scanner lectura = new Scanner (System.in);
         int N;
