@@ -77,7 +77,7 @@ public class Ejercicio1 {
    - Temporal = b
    - b = a % b
    - a = Temporal
-- Fin Mientras
+- __Fin Mientras__
 - Devolver a
 - __Fin__
 
@@ -130,36 +130,37 @@ public class Ejercicio2 {
 ## Ejercicio 3
 #### Escribe un programa en Java que encuentre el número de Fibonacci en la posición n.  Se debe solicitar el número por teclado.
 
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 3</summary>
 
 Procedimiento EncontrarFibonacciEnPosicion()
-Escribir "Ingrese la posición n para encontrar el número de Fibonacci:"
-Leer n
-
-    Si n < 0 Entonces
-        Escribir "El número de Fibonacci no está definido para posiciones negativas."
-    Sino
-        Si n = 0 Entonces
-            Escribir "El número de Fibonacci en la posición 0 es 0."
-        Sino
-            Si n = 1 Entonces
-                Escribir "El número de Fibonacci en la posición 1 es 1."
-            Sino
-                fibNMinus1 <- 1
-                fibNMinus2 <- 0
-                fib <- 0
+- __Inicio__
+- Solicitar que Ingrese la posición n para encontrar el número de Fibonacci
+- Leer n
+- Si n < 0 Entonces
+  - Escribir "El número de Fibonacci no está definido para posiciones negativas."
+    - Sino
+      - Si n = 0 Entonces
+      - Escribir "El número de Fibonacci en la posición 0 es 0."
+    - Sino
+      - Si n = 1 Entonces
+      - Escribir "El número de Fibonacci en la posición 1 es 1."
+        - __Sino__
+        - fibNMinus1 = 1
+        - fibNMinus2 = 0
+        - fib = 0
                 
-                Para i desde 2 hasta n hacer
-                    fib <- fibNMinus1 + fibNMinus2
-                    fibNMinus2 <- fibNMinus1
-                    fibNMinus1 <- fib
-                Fin Para
+          - __Para__ i desde 2 hasta n hacer
+          - fib = fibNMinus1 + fibNMinus2
+          - fibNMinus2 = fibNMinus1
+          - fibNMinus1 = fib
+          - __Fin Para__
                 
                 Escribir "El número de Fibonacci en la posición ", n, " es ", fib
-            Fin Si
-        Fin Si
-    Fin Si
-Fin Procedimiento
+        - __Fin Si__
+    - __Fin Si__
+- __Fin Si__
+- __FIN__
+</details>
 
 // Llamada al procedimiento principal
 EncontrarFibonacciEnPosicion()
