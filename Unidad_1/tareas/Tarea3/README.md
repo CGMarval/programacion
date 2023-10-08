@@ -85,7 +85,7 @@ public class Ejercicio1 {
 
 <details><summary>DIAGRAMA DE FLUJO - Ejercicio 2</summary>
 
-![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio2.drawio.png)
+![Diagrama de flujo Ejercicio 2](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio2.drawio.png)
 
 </details>
 
@@ -156,7 +156,7 @@ public class Ejercicio2 {
 
 <details><summary>DIAGRAMA DE FLUJO - Ejercicio 3</summary>
 
-![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio3.drawio.png)
+![Diagrama de flujo Ejercicio 3](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio3.drawio.png)
 
 </details>
 
@@ -197,7 +197,7 @@ public class Ejercicio3 {
 ## Ejercicio 4
 #### Escribe un programa en Java que verifique si un número es palíndromo. Se debe solicitar el número por teclado.
 
-<details><summary>PSEUDOCÓDIGO - Ejercicio 3</summary>
+<details><summary>PSEUDOCÓDIGO - Ejercicio 4</summary>
 
 - __Inicio__
 - Solicitar que Ingrese un número para verificar si es un palíndromo
@@ -219,11 +219,11 @@ public class Ejercicio3 {
 
 <details><summary>DIAGRAMA DE FLUJO - Ejercicio 4</summary>
 
-![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio4.drawio.png)
+![Diagrama de flujo Ejercicio 4](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio4.drawio.png)
 
 </details>
 
-<details><summary>CÓDIGO JAVA - Ejercicio 3</summary>
+<details><summary>CÓDIGO JAVA - Ejercicio 4</summary>
 
 ```code
 import java.util.Scanner;
