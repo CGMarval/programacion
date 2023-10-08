@@ -261,7 +261,7 @@ public class Ejercicio4 {
 ## Ejercicio 5
 #### Escribe un programa en Java que imprima los primeros n términos de la secuencia de Fibonacci. Se debe solicitar el número n por teclado.
 
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 5</summary>
 
 Procedimiento ImprimirSecuenciaFibonacci()
 Escribir "Ingrese el número de términos de la secuencia de Fibonacci que desea imprimir:"
@@ -285,9 +285,8 @@ Leer n
         Fin Si
     Fin Para
 Fin Procedimiento
+</details>
 
-// Llamada al procedimiento principal
-ImprimirSecuenciaFibonacci()
 
 ## Ejercicio 6
 #### Escribe un programa en Java que encuentre todos los números Armstrong entre 1 y 1000.
