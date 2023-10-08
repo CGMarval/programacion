@@ -18,6 +18,9 @@ __Inicio:__
 Declaración de variables: 
 num <- 1
 n <- 4 // Número de filas a imprimir
+f <- 1 // Para controlar la iteración de cada fila
+j <- 1 // Para controlar la iteración de cada columna
+
 Para i de 1 hasta n hacer
     Para j de 1 hasta i hacer
     Escribir num
@@ -25,8 +28,7 @@ Para i de 1 hasta n hacer
     Fin Para
     Escribir en la siguiente línea.
 Fin Para
-
-FIN
+__FIN__
 
 
 2. Escribe un programa en Java que encuentre el máximo común divisor (MCD) de dos números. Se debe solicitar los números por teclado.

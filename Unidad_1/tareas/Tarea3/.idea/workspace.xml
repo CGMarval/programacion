@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52b220fb-96a4-4463-a6a7-86a7dd308a52" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tarea1/Tarea1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tarea2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tarea2/src/main/java/ies/puerto/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tarea2/src/main/java/ies/puerto/Tarea2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tarea2/src/main/java/ies/puerto/Tarea2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Tarea1&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/esteban/programacion/Unidad_1/tareas/Tarea3&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
