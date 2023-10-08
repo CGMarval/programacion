@@ -258,7 +258,8 @@ public class Ejercicio4 {
 ```
 </details>
 
-5. Escribe un programa en Java que imprima los primeros n términos de la secuencia de Fibonacci. Se debe solicitar el número n por teclado.
+## Ejercicio 5
+#### Escribe un programa en Java que imprima los primeros n términos de la secuencia de Fibonacci. Se debe solicitar el número n por teclado.
 
 Aquí el Pseudocódigo:
 
@@ -288,12 +289,11 @@ Fin Procedimiento
 // Llamada al procedimiento principal
 ImprimirSecuenciaFibonacci()
 
+## Ejercicio 6
+#### Escribe un programa en Java que encuentre todos los números Armstrong entre 1 y 1000.
 
-6. Escribe un programa en Java que encuentre todos los números Armstrong entre 1 y 1000.
+<details><summary>PSEUDOCÓDIGO - Ejercicio 6</summary>
 
-Aquí el Pseudocódigo:
-
-Procedimiento EncontrarNumerosArmstrong()
 Para numero de 1 hasta 1000 hacer
 Si EsNumeroArmstrong(numero) entonces
 Escribir numero
@@ -324,16 +324,13 @@ Fin Mientras
 Devolver contar
 Fin Función
 
-// Llamada al procedimiento principal
-EncontrarNumerosArmstrong()
+</details>
 
+## Ejercicio 7
+#### Imprimir el nombre del día de la semana correspondiente a un número ingresado por el usuario utilizando una estructura switch. El día a verificar se debe de pedir por teclado.
 
-7. Imprimir el nombre del día de la semana correspondiente a un número ingresado por el usuario utilizando una estructura switch.
-El día a verificar se debe de pedir por teclado.
+<details><summary>PSEUDOCÓDIGO - Ejercicio 7</summary>
 
-Aquí el Pseudocódigo:
-
-Procedimiento ImprimirNombreDia()
 Escribir "Ingresa un número del 1 al 7 para obtener el día de la semana:"
 Leer numeroDia
 
@@ -370,14 +367,12 @@ nombreDia <- nulo
 
     Devolver nombreDia
 Fin Función
+</details>
 
-// Llamada al procedimiento principal
-ImprimirNombreDia()
+## Ejercicio 8
+#### Encontrar y mostrar todos los números perfectos en un rango dado utilizando un bucle for. Solicita el límite por teclado.
 
-
-8. Encontrar y mostrar todos los números perfectos en un rango dado utilizando un bucle for. Solicita el límite por teclado.
-
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 8</summary>
 
 Procedimiento EncontrarNumerosPerfectos()
 Escribir "Ingresa el límite superior para buscar números perfectos:"
@@ -403,14 +398,12 @@ sumaDivisores <- 0
 
     Devolver sumaDivisores = numero
 Fin Función
+</details>
 
-// Llamada al procedimiento principal
-EncontrarNumerosPerfectos()
+## Ejercicio 9
+#### Imprimir la tabla de multiplicar de un número ingresado por el usuario utilizando un bucle for. Solicita el valor de la tabla por teclado.
 
-
-9. Imprimir la tabla de multiplicar de un número ingresado por el usuario utilizando un bucle for. Solicita el valor de la tabla por teclado.
-
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 9</summary>
 
 Procedimiento ImprimirTablaMultiplicar()
 Escribir "Ingresa un número para obtener su tabla de multiplicar:"
@@ -423,15 +416,12 @@ Leer numero
         Escribir numero, " x ", i, " = ", resultado
     Fin Para
 Fin Procedimiento
+</details>
 
-// Llamada al procedimiento principal
-ImprimirTablaMultiplicar()
+## Ejercicio 10
+#### Calcular la suma de todos los números pares entre 1 y un número ingresado por el usuario utilizando un bucle do-while.
 
-
-
-10. Calcular la suma de todos los números pares entre 1 y un número ingresado por el usuario utilizando un bucle do-while.
-
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 10</summary>
 
 Procedimiento CalcularSumaNumerosPares()
 Escribir "Ingresa un número para calcular la suma de números pares hasta ese número:"
@@ -447,9 +437,7 @@ Leer numeroLimite
 
     Escribir "La suma de los números pares hasta ", numeroLimite, " es: ", suma
 Fin Procedimiento
-
-// Llamada al procedimiento principal
-CalcularSumaNumerosPares()
+</details>
 
 
 
