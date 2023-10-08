@@ -17,7 +17,7 @@ Realiza los siguientes programas en Java, cada unos en una clase.
 
 7 8 9 10 
 ```
-<details><summary>PULSE AQUÍ para ver Pseudocódigo Ejercicio 1</summary>
+<details><summary>PSEUDOCÓDIGO - Ejercicio 1</summary>
 
 - __Inicio:__
 - Declaración de variables: 
@@ -36,10 +36,30 @@ Realiza los siguientes programas en Java, cada unos en una clase.
 __FIN__
 </details>
 
-<details><summary>PULSA AQUÍ para ver diagrama de flujo Ejercicio 1</summary>
+<details><summary>DIAGRAMA DE FLUJO - Ejercicio 1</summary>
 
 ![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio1.drawio.png)
 
+</details>
+
+<details><summary>CÓDIGO JAVA - Ejercicio 1</summary>
+
+```code
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        int n = 4; // Número de filas
+        int num = 1; // Inicializa el número a imprimir
+
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(num + " ");
+                num++;
+            }
+            System.out.println(); // Cambia de línea después de cada fila
+        }
+
+    }
+```
 </details>
 
 ## Ejercicio 2
