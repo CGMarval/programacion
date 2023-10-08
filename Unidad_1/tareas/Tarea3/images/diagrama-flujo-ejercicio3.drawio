@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T20:24:54.396Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="sGMXnvRaO2-cz-quL2w2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T21:59:24.191Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="iu5uGcVganU2k3fI0xPK" version="22.0.4" type="github">
   <diagram name="Página-1" id="ZjUV8_jsT-Y878KHaoqv">
-    <mxGraphModel>
+    <mxGraphModel dx="367" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xzQwSftwZzvsqTabIo1f-1" value="&lt;b&gt;Inicio&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-2" target="xzQwSftwZzvsqTabIo1f-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-2" value="Introduzca la posición para encontrar el número de Fibonacci" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="312" y="170" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-3" value="n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="352" y="280" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="483" y="392.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-12" value="n = 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="353" y="356" width="76" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-16" value="Si" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="369" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-21" value="El número de Fibonacci en la posición 0 es 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="73" y="369" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-12" target="xzQwSftwZzvsqTabIo1f-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-23" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413" y="362.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="633" y="392.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-25" target="xzQwSftwZzvsqTabIo1f-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="531" y="480" />
+              <mxPoint x="390" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-25" value="n = 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="493" y="356" width="76" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-30" value="Si" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="553" y="362.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-32" value="El número de Fibonacci en la posición 1 es 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="633" y="362.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-34" value="i &amp;lt;&amp;gt; n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="352" y="500" width="76" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-35" target="xzQwSftwZzvsqTabIo1f-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-35" value="fib = fibNmenos1 + fibNmenos2&lt;br&gt;fibNmenos2= fibNmenos1&lt;br&gt;fibNmenos1 = fib" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="610" width="183" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-38" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="513" y="429" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-44" value="Retorno" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="700" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-47" value="Si" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xzQwSftwZzvsqTabIo1f-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-50" value="El número de Fibonacci en la posición n es fib" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="306" y="800" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-51" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="411" y="514" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xzQwSftwZzvsqTabIo1f-52" value="FIN" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="348" y="920" width="86" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
