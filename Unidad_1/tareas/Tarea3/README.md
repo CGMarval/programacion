@@ -132,41 +132,28 @@ public class Ejercicio2 {
 
 <details><summary>PSEUDOCÓDIGO - Ejercicio 3</summary>
 
-Procedimiento EncontrarFibonacciEnPosicion()
 - __Inicio__
-- Solicitar que Ingrese la posición n para encontrar el número de Fibonacci
+- Solicitar Ingresa la posición n para encontrar el número de Fibonacci:"
 - Leer n
-- Si n < 0 Entonces
-  - Escribir "El número de Fibonacci no está definido para posiciones negativas."
-    - Sino
-      - Si n = 0 Entonces
-      - Escribir "El número de Fibonacci en la posición 0 es 0."
-    - Sino
-      - Si n = 1 Entonces
-      - Escribir "El número de Fibonacci en la posición 1 es 1."
-        - __Sino__
-        - fibNMinus1 = 1
-        - fibNMinus2 = 0
-        - fib = 0
-                
-          - __Para__ i desde 2 hasta n hacer
-          - fib = fibNMinus1 + fibNMinus2
-          - fibNMinus2 = fibNMinus1
-          - fibNMinus1 = fib
-          - __Fin Para__
-                
-                Escribir "El número de Fibonacci en la posición ", n, " es ", fib
-        - __Fin Si__
-    - __Fin Si__
+- Declaracion de variables fibNmenos2 = 0, fibNmenos1 = 1, fib <- 0
+- __Si n = 0__ Entonces
+- fib <- 0
+- __Sino Si n = 1__ Entonces
+- fib = 1
+- __Sino__
+- __Para i desde 2 hasta n__ hacer
+- fib = fibNmenos1 + fibNmenos2
+- fibNmenos2 = fibNmenos1
+- fibNmenos1 = fib
+- __Fin Para__
 - __Fin Si__
-- __FIN__
+- "El número de Fibonacci en la posición ", n, " es ", fib
+- __Fin__
+
 </details>
 
-// Llamada al procedimiento principal
-EncontrarFibonacciEnPosicion()
-
-
-4. Escribe un programa en Java que verifique si un número es palíndromo. Se debe solicitar el número por teclado.
+## Ejercicio 4
+#### Escribe un programa en Java que verifique si un número es palíndromo. Se debe solicitar el número por teclado.
 
 Aquí el Pseudocódigo:
 

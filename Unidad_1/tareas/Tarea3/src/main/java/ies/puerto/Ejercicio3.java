@@ -8,29 +8,25 @@ public class Ejercicio3 {
         System.out.print("Ingresa la posición n para encontrar el número de Fibonacci: ");
         int n = sc.nextInt();
 
-        int resultado = calcularFibonacci(n);
-
-        System.out.println("El número de Fibonacci en la posición " + n + " es: " + resultado);
-
-        sc.close();
-    }
-
-    public static int calcularFibonacci(int n) {
-        if (n <= 1) {
-            return n;
-        }
-
-        int fibNMinus1 = 1;
-        int fibNMinus2 = 0;
+        int fibNmenos2 = 0;
+        int fibNmenos1 = 1;
         int fib = 0;
 
-        for (int i = 2; i <= n; i++) {
-            fib = fibNMinus1 + fibNMinus2;
-            fibNMinus2 = fibNMinus1;
-            fibNMinus1 = fib;
+        if (n == 0) {
+            fib = 0;
+        } else if (n == 1) {
+            fib = 1;
+        } else {
+            for (int i = 2; i <= n; i++) {
+                fib = fibNmenos1 + fibNmenos2;
+                fibNmenos2 = fibNmenos1;
+                fibNmenos1 = fib;
+            }
         }
 
-        return fib;
+        System.out.println("El número de Fibonacci en la posición " + n + " es " + fib);
+
+        sc.close();
 
     }
 
