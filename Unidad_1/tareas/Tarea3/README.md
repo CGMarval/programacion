@@ -160,7 +160,7 @@ public class Ejercicio2 {
 
 </details>
 
-<details><summary>CÓDIGO JAVA - Ejercicio 2</summary>
+<details><summary>CÓDIGO JAVA - Ejercicio 3</summary>
 
 ```code
 import java.util.Scanner;
@@ -197,30 +197,66 @@ public class Ejercicio3 {
 ## Ejercicio 4
 #### Escribe un programa en Java que verifique si un número es palíndromo. Se debe solicitar el número por teclado.
 
-Aquí el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 3</summary>
 
-Procedimiento VerificarPalindromo()
-Escribir "Ingrese un número para verificar si es palíndromo:"
-Leer numero
-numeroOriginal <- numero
-numeroInvertido <- 0
+- __Inicio__
+- Solicitar que Ingrese un número para verificar si es un palíndromo
+- Leer numero
+- numeroOriginal = numero
+- numeroInvertido = 0
+- __Mientras__ numero > 0 Hacer
+- digito = numero % 10
+- numeroInvertido = numeroInvertido * 10 + digito
+- numero = numero / 10
+- __Fin Mientras__
+- __Si__ numeroOriginal = numeroInvertido Entonces
+- Escribir numeroOriginal, " es un palíndromo."
+- __Sino__
+- Escribir numeroOriginal, " no es un palíndromo."
+- __ Fin Si__
+- __FIN__
+</details>
 
-    Mientras numero > 0 Hacer
-        digito <- numero % 10
-        numeroInvertido <- numeroInvertido * 10 + digito
-        numero <- numero / 10
-    Fin Mientras
+<details><summary>DIAGRAMA DE FLUJO - Ejercicio 4</summary>
 
-    Si numeroOriginal = numeroInvertido Entonces
-        Escribir numeroOriginal, " es un número palíndromo."
-    Sino
-        Escribir numeroOriginal, " no es un número palíndromo."
-    Fin Si
-Fin Procedimiento
+![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio4.drawio.png)
 
-// Llamada al procedimiento principal
-VerificarPalindromo()
+</details>
 
+<details><summary>CÓDIGO JAVA - Ejercicio 3</summary>
+
+```code
+import java.util.Scanner;
+
+public class Ejercicio4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Ingresa un número para verificar si es un palíndromo: ");
+        int numero = sc.nextInt();
+        int numeroOriginal = numero;
+        int numeroInvertido = 0;
+
+        while (numero > 0) {
+            int digito = numero % 10;
+            numeroInvertido = numeroInvertido * 10 + digito;
+            numero /= 10;
+        }
+
+        if (numeroOriginal == numeroInvertido) {
+            System.out.println(numeroOriginal + " es un palíndromo.");
+        } else {
+            System.out.println(numeroOriginal + " no es un palíndromo.");
+        }
+
+        sc.close();
+
+    }
+
+
+}
+```
+</details>
 
 5. Escribe un programa en Java que imprima los primeros n términos de la secuencia de Fibonacci. Se debe solicitar el número n por teclado.
 
