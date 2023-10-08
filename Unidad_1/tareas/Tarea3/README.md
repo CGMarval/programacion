@@ -36,10 +36,9 @@ Realiza los siguientes programas en Java, cada unos en una clase.
 __FIN__
 </details>
 
+<details><summary>PULSA AQUÍ para ver diagrama de flujo Ejercicio 1</summary>
 ![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio1.drawio.png)
-
-
-home/esteban/programacion/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio1.drawio.png
+</details>
 
 ## Ejercicio 2
 #### Escribe un programa en Java que encuentre el máximo común divisor (MCD) de dos números. Se debe solicitar los números por teclado.
