@@ -65,22 +65,29 @@ public class Ejercicio1 {
 ## Ejercicio 2
 #### Escribe un programa en Java que encuentre el máximo común divisor (MCD) de dos números. Se debe solicitar los números por teclado.
 
-Aqui el Pseudocódigo:
+<details><summary>PSEUDOCÓDIGO - Ejercicio 2</summary>
 
-Procedimiento CalcularMCD(a, b)
-Mientras b no sea igual a 0 hacer
-Temporal <- b
-b <- a % b
-a <- Temporal
-Fin Mientras
-Devolver a
-Fin Procedimiento
+- __Inicio__
+- Inicializar variables: a = 0, b = 0
+- Solicitar la introducción de los dos números a calcular su MCD
+- Leer los dos valores
 
-// Llamada al procedimiento principal
-Leer numero1
-Leer numero2
-Resultado <- CalcularMCD(numero1, numero2)
-Escribir "El MCD de ", numero1, " y ", numero2, " es ", Resultado
+- __Mientras__ b no sea igual a 0 hacer
+
+   - Temporal = b
+   - b = a % b
+   - a = Temporal
+- Fin Mientras
+- Devolver a
+- __Fin__
+
+</details>
+
+<details><summary>DIAGRAMA DE FLUJO - Ejercicio 2</summary>
+
+![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio2.drawio.png)
+
+</details>
 
 3. Escribe un programa en Java que encuentre el número de Fibonacci en la posición n.  Se debe solicitar el número por teclado.
 
