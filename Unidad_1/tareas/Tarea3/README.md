@@ -4,7 +4,11 @@ Apertura: jueves, 5 de octubre de 2023, 14:30
 Cierre: domingo, 8 de octubre de 2023, 16:20
 Realiza los siguientes programas en Java, cada unos en una clase.
 
-1. Escribe un programa en Java que imprima el patrón siguiente:
+
+## Ejercicio 1
+#### Escribe un programa en Java que imprima el patrón siguiente:
+
+```code
 1 
 
 2 3 
@@ -12,26 +16,28 @@ Realiza los siguientes programas en Java, cada unos en una clase.
 4 5 6 
 
 7 8 9 10 
+```
+<details><summary>PULSE AQUÍ para ver Pseudocódigo Ejercicio 1</summary>
 
-Aqui su Pseudocódigo:
-__Inicio:__
-Declaración de variables: 
-num <- 1
-n <- 4 // Número de filas a imprimir
-f <- 1 // Para controlar la iteración de cada fila
-j <- 1 // Para controlar la iteración de cada columna
+- __Inicio:__
+- Declaración de variables: 
+  num = 1
+  n = 4 (Número de filas a imprimir)
+  f = 1 (Para controlar la iteración de cada fila)
+  c = 1 (Para controlar la iteración de cada columna)
 
-Para i de 1 hasta n hacer
-    Para j de 1 hasta i hacer
-    Escribir num
-    num <- num + 1
-    Fin Para
-    Escribir en la siguiente línea.
-Fin Para
+- __Para__ f de 1 hasta n hacer
+-    __Para__ c de 1 hasta f hacer
+     Escribir num
+     num = num + 1
+     Fin Para
+   Escribir en la siguiente línea.
+- __Fin Para__
 __FIN__
+</details>
 
-
-2. Escribe un programa en Java que encuentre el máximo común divisor (MCD) de dos números. Se debe solicitar los números por teclado.
+## Ejercicio 2
+#### Escribe un programa en Java que encuentre el máximo común divisor (MCD) de dos números. Se debe solicitar los números por teclado.
 
 Aqui el Pseudocódigo:
 
