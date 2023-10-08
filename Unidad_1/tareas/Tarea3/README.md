@@ -37,7 +37,9 @@ __FIN__
 </details>
 
 <details><summary>PULSA AQUÍ para ver diagrama de flujo Ejercicio 1</summary>
+
 ![Diagrama de flujo Ejercicio 1](https://github.com/CGMarval/programacion/blob/main/Unidad_1/tareas/Tarea3/images/diagrama-flujo-ejercicio1.drawio.png)
+
 </details>
 
 ## Ejercicio 2
