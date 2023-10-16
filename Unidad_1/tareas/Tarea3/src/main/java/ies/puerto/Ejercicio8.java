@@ -17,6 +17,7 @@ public class Ejercicio8 {
         }
 
         sc.close();
+
     }
 
     public static boolean esNumeroPerfecto(int numero) {

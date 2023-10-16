@@ -5,9 +5,11 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         System.out.println("Números Armstrong entre 1 y 1000:");
         for (int i = 1; i <= 1000; i++) {
+
             if (esNumeroArmstrong(i)) {
                 System.out.println(i);
             }
+
         }
     }
 
