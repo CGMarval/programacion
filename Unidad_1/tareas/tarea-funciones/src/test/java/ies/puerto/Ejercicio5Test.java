@@ -19,6 +19,10 @@ public class Ejercicio5Test {
         numeroPrimo(11);
     }
 
+    @Test
+    public void numeroNoPrimoTest() {
+
+    }
     /**
      * Función que recibe un número y comprueba que este sea primo
      * @param numero

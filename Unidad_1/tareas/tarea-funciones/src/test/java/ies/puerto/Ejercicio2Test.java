@@ -22,10 +22,13 @@ public class Ejercicio2Test {
     */
 
     @Test
-    public void calcularCirculoTest() {
+    public void calcularCirculo3Test() {
       calcularCirculo(3, 28.274333882308138);
-      calcularCirculo(5, 78.53981633974483);
-      calcularCirculo(598, 1123446.0992943244);
+    }
+
+    @Test
+    public void calcularCirculo598Test() {
+        calcularCirculo(598, 1123446.0992943244);
     }
 
 

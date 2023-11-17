@@ -19,6 +19,22 @@ public class Ejercicio4 {
         return resultado;
     }
 
+
+    /**
+     * Función recursiva que calcula entre tres valores, cual es el mayor
+     * @param numeroA
+     * @param numeroB
+     * @param numeroC
+     * @return el mayor de los tres valores
+     *
+    public int esMayor(int numeroA, int numeroB, int numeroC ){
+        int maximo = esMayor(numeroA, numeroB);
+        if (numeroC > maximo){
+            maximo = numeroC;
+        }
+        return maximo;
+    }*/
+
     /**
      * Función recursiva que calcula entre tres valores, cual es el mayor
      * @param numeroA
@@ -27,10 +43,7 @@ public class Ejercicio4 {
      * @return el mayor de los tres valores
      */
     public int esMayor(int numeroA, int numeroB, int numeroC ){
-        int resultado = esMayor(numeroA, numeroB);
-        if (numeroC > resultado){
-            resultado = numeroC;
-        }
-        return resultado;
+        int maximo = esMayor(numeroA, numeroB);
+        return esMayor(maximo, numeroC);
     }
 }

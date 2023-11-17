@@ -15,13 +15,33 @@ public class Ejercicio3Test {
 
 
     @Test
-    public void calcularAreaCuadradoRectanguloTestOK(){
+    public void calcularAreaCuadradoRectangulo105TestOK(){
         calculaArea(7, 15, 105);
+    }
+
+    @Test
+    public void calcularAreaCuadradoRectangulo81TestOK(){
         calculaArea(9, 9, 81);
-        calculaArea(20, 4, 80);
-        calculaArea(3, 3, 9);
+    }
+
+    @Test
+    public void calcularAreaRectangulo4900TestOK(){
         calculaArea(100, 49, 4900);
-        calculaArea(459, 5000, 2295000);
+    }
+
+    @Test
+    public void calcularAreaRectangulo80TestOK(){
+        calculaArea(20, 4, 80);
+    }
+
+    @Test
+    public void calcularAreaCuadradoTestOK(){
+        calculaArea(3, 3, 9);
+    }
+
+    @Test
+    public void calcularAreaCuadrado9025TestOK(){
+        calculaArea(95, 95, 9025);
     }
 
     /**
@@ -36,22 +56,4 @@ public class Ejercicio3Test {
         Assertions.assertEquals(resultOk, resultado, "Error, no se ha obtenido el resultado esperado");
     }
 
-    /**
-    @Test
-    public void calcularCuadradoTest() {
-        int ladoA = 3;
-        int ladoB = 4;
-        double resultadoOk = 0;
-        double resultado = ejercicio3.areaCuadrado(ladoA, ladoB);
-        Assertions.assertEquals(resultadoOk, resultado, "No se ha obtenido el resultado esperado");
-    }
-    @Test
-    public void calcularRectanguloTest() {
-        int ladoA = 3;
-        int ladoB = 4;
-        double resultadoOk = 0;
-        double resultado = ejercicio3.areaRectangulo(ladoA,ladoB);
-        Assertions.assertEquals(resultadoOk, resultado, "No se ha obtenido el resultado esperado");
-    }
-    */
 }
